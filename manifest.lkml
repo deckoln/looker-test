@@ -1,7 +1,7 @@
 application: query_insights {
     label: "Query Insights"
-    url: "https://localhost:3000/bundle.js"
-    # file: "bundle.js"
+    # url: "https://localhost:3000/bundle.js"
+    file: "bundle.js"
     mount_points: {
       dashboard_vis: yes
       dashboard_tile: yes
