@@ -12,7 +12,7 @@ application: dashboard-summarization {
     use_form_submit: yes
     core_api_methods: ["run_inline_query","run_query","all_lookml_models","dashboard","dashboard_dashboard_elements"]
     external_api_urls: [
-      "https://websocketserviceimage-555354526963.us-central1.run.app","http://localhost:3000","https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*"
+      "http://localhost:5000","https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*"
     ]
     oauth2_urls: [
       "https://accounts.google.com/o/oauth2/v2/auth",
