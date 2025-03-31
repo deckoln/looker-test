@@ -1,6 +1,6 @@
 application: dashboard-summarization {
   label: "Dashboard Insights Powered by Vertex AI"
-  file: "dashboard_summarization.js"
+  file: "dashboard_summarization_cloud_run.js"
   # url: "https://localhost:3000/dashboard_summarization.js"
   mount_points: {
     dashboard_vis: yes
@@ -12,7 +12,7 @@ application: dashboard-summarization {
     use_form_submit: yes
     core_api_methods: ["run_inline_query","run_query","all_lookml_models","dashboard","dashboard_dashboard_elements","create_sql_query","run_sql_query","create_query"]
     external_api_urls: [
-      "http://localhost:5000","http://localhost:3000","https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*"
+      "https://dashboard-summarization-436666578289.asia-northeast1.run.app","http://localhost:3000","https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*"
     ]
     oauth2_urls: [
       "https://accounts.google.com/o/oauth2/v2/auth",
