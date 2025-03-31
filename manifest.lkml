@@ -10,7 +10,6 @@ application: dashboard-summarization {
   entitlements: {
     local_storage: yes
     use_form_submit: yes
-    core_api_methods: ["run_inline_query","run_query","all_lookml_models","dashboard","dashboard_dashboard_elements","create_sql_query","run_sql_query","create_query"]
     external_api_urls: [
       "https://dashboard-summarization-436666578289.asia-northeast1.run.app","http://localhost:3000","https://*.googleapis.com","https://slack.com/api/*","https://slack.com/*"
     ]
