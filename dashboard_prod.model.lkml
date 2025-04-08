@@ -1,1 +1,0 @@
-connection: "dashboard_production"
