@@ -1,1 +1,1 @@
-include: "//develop/dashboard.model"
+include: "//common/dashboard.model"

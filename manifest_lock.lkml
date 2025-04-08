@@ -1,4 +1,4 @@
-remote_dependency: develop {
+remote_dependency: common {
   url: "https://github.com/deckoln/looker-test"
   ref: "fbf0375972f4af2e6144ec82c4aa2aebda349743"
 }
