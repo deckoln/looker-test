@@ -1,5 +1,5 @@
 - dashboard: xxxxxxxxxx
-  title: du-testttttttttt
+  title: dddddd
   layout: newspaper
   preferred_viewer: dashboards-next
   description: ''
