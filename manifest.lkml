@@ -2,7 +2,7 @@ project_name: "pj_dashboard_summarization_develop"
 
 application: dashboard_summarization {
   label: "Dashboard Summarization_develop"
-  url: "https://172.18.122.116:3000/dashboard_summarization.js"
+  url: "https://looker-dashboard-summarization-dev-436666578289.asia-northeast1.run.app/dashboard_summarization.js"
   mount_points: {
     dashboard_vis: yes
     dashboard_tile: yes
